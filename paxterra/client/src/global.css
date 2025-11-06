@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --color-primary-green: #3b583e;
+  --color-secondary-green: #263927;
+  --color-dark: #000000;
+  --color-orange: #d96200;
+
+  --color-text-light: #ffffff;
+  --color-text-dark: #000000;
+
+  --space-xs: 4px;
+  --space-s: 8px;
+  --space-m: 16px;
+  --space-l: 24px;
+  --space-xl: 32px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  color: var(--color-text-dark);
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  font-family: "Lora", sans-serif;
+  color: var(--color-primary-green);
+  margin-bottom: var(--space-m);
+}

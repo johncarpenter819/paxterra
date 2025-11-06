@@ -1,0 +1,119 @@
+.about-me-content {
+  text-align: center;
+}
+.about-me-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: var(--space-xl);
+  text-align: left;
+  margin-top: var(--space-xl);
+}
+.about-me-intro-split {
+  display: flex;
+  gap: var(--space-l);
+  align-items: flex-start;
+}
+.section-headline {
+  font-size: 3rem;
+  color: var(--color-primary-green);
+  margin-bottom: var(--space-xl);
+}
+.about-me-left-column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-l);
+}
+.family-photo-grid {
+  flex: 1.5;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-m);
+  padding: var(--space-s);
+  background-color: #eee;
+  border-radius: var(--space-xs);
+}
+.family-photo-grid .family-photo {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--space-s);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.about-me-text {
+  flex: 3;
+}
+.about-me-text p {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: var(--space-m);
+  font-size: 1.3rem;
+  line-height: 1.7;
+}
+.usp-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-m);
+  align-content: stretch;
+}
+.usp-item {
+  background-color: var(--color-primary-green);
+  color: var(--color-text-light);
+  padding: var(--space-s) var(--space-m);
+  border-radius: var(--space-s);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.usp-icon {
+  font-size: 2rem;
+  margin-bottom: var(--space-xs);
+  color: var(--color-orange);
+}
+.usp-item h4 {
+  color: var(--color-text-light);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .about-me-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-l);
+    text-align: center;
+  }
+  .about-me-intro-split {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-me-text {
+    max-width: 100%;
+    margin: 0;
+    padding: 0 var(--space-m);
+    flex: auto;
+  }
+  .usp-grid {
+    order: 2;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-s);
+  }
+  .usp-item h4 {
+    font-size: 0.75rem;
+  }
+  .family-photo-grid {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .usp-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

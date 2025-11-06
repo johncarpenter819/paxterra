@@ -1,0 +1,39 @@
+.cta-strip-container {
+  background-color: var(--color-orange);
+  padding: var(--space-l) var(--space-m);
+}
+.cta-strip-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-text-light);
+}
+.cta-headline {
+  font-size: 1.8rem;
+  font-family: "Lora", sans-serif;
+  color: var(--color-text-light);
+  margin: 0;
+}
+.contact-info-group {
+  display: flex;
+  gap: var(--space-m);
+}
+.contact-card {
+  background-color: var(--color-text-light);
+  color: var(--color-text-dark);
+  padding: var(--space-s) var(--space-l);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.contact-card .phone-number {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-primary-green);
+}
+.contact-card .details {
+  font-size: 0.85rem;
+}
