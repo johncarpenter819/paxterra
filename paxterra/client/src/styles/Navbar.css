@@ -1,7 +1,7 @@
 .navbar-container {
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 1000;
   background-color: #ffffff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 }
@@ -18,6 +18,23 @@
   width: auto;
   vertical-align: middle;
 }
+.navbar-certifications {
+  display: flex;
+  gap: var(--space-m);
+  align-items: center;
+  flex-grow: 1;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.navbar-certifications span {
+  line-height: 1;
+}
+.navbar-certifications img {
+  height: 100px;
+  width: auto;
+}
 .navbar-links {
   list-style: none;
   display: flex;
@@ -29,7 +46,7 @@
 .navbar-links a {
   color: var(--color-text-dark);
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-decoration: none;
   padding: var(--space-s) 0;
   transition: color 0.3 ease;

@@ -17,15 +17,16 @@ const AboutMe = () => {
               <p>
                 After a couple years of working for another tree company and
                 numerous side jobs on the weekends, we decided it was time to
-                take a leap of faith and start our very own! Jesse has over four
-                years of tree work experience and his wife Maggie has helped
-                with numerous side jobs over the past three! Our family consists
-                of Jesse, Maggie, our son Paxton (hence the name PAX-Terra) and
-                our dog Cleo! We are a close knit family who feels we can
-                accomplish anything as long as we are together. Spending time
-                outdoors is something all of us have a deep passion for whether
-                that's fishing, going on walks or going to a new playground. We
-                are ecstatic this career allows us to do that every single day.
+                take a leap of faith and start our very own! Jesse has over
+                seven years of tree work experience and his wife Maggie has
+                helped with numerous side jobs over the past six! Our family
+                consists of Jesse, Maggie, our son Paxton (hence the name
+                PAX-Terra) and our dog Cleo! We are a close knit family who
+                feels we can accomplish anything as long as we are together.
+                Spending time outdoors is something all of us have a deep
+                passion for whether that's fishing, going on walks or going to a
+                new playground. We are ecstatic this career allows us to do that
+                every single day.
               </p>
               <p>
                 Proudly serving Myersville, Maryland and the surrounding areas.

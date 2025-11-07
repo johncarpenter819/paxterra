@@ -14,6 +14,12 @@ const Navbar = () => {
           </Link>
         </div>
 
+        <div className="navbar-certifications">
+          <span>MD LICENSED TREE EXPERT - # 002655</span>
+          <span>ISA CERTIFIED ARBORIST - # MA-6635A</span>
+          <img src="/ISA-cert.webp" alt="cert" />
+        </div>
+
         <ul className="navbar-links">
           <li>
             <Link to="/#about">About Us</Link>

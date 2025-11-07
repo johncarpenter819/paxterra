@@ -10,15 +10,15 @@ const ServicesOverview = () => {
       </h2>
 
       <div className="service-area-list">
-        <span>•</span>
+        <span>🌳</span>
         <span>Frederick County</span>
-        <span>•</span>
+        <span>🌳</span>
         <span>Washington County</span>
-        <span>•</span>
+        <span>🌳</span>
         <span>Montgomery County</span>
-        <span>•</span>
+        <span>🌳</span>
         <span>Carroll County</span>
-        <span>•</span>
+        <span>🌳</span>
         <span>Howard County</span>
       </div>
 

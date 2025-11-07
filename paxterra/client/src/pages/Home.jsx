@@ -3,6 +3,7 @@ import Hero from "../component/Hero";
 import CtaStrip from "../component/sections/CtaStrip/CtaStrip";
 import AboutMe from "../component/sections/AboutMe/AboutMe";
 import ServicesOverview from "../component/sections/ServicesOverview/ServicesOverview";
+import Gallery from "../component/sections/Gallery/Gallery";
 import "../styles/Home.css";
 
 const Home = () => {
@@ -15,6 +16,8 @@ const Home = () => {
         <AboutMe />
         <CtaStrip />
         <ServicesOverview />
+        <CtaStrip />
+        <Gallery />
         <CtaStrip />
       </section>
     </>
