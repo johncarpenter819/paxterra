@@ -75,4 +75,9 @@
   .service-area-list {
     margin-bottom: var(--space-l);
   }
+  .service-area-list span {
+    font-size: 1rem;
+    margin: 0 var(--space-xs);
+    line-height: 1.5;
+  }
 }

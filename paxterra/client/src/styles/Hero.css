@@ -119,6 +119,7 @@
   .hero-background-visual {
     flex: auto;
     min-height: 250px;
+    width: 100%;
   }
   .hero-background-visual img {
     width: 40%;
@@ -134,5 +135,12 @@
   .form-row {
     flex-direction: column;
     gap: var(--space-s);
+  }
+  .send-message-button {
+    width: 100%;
+    margin: 0;
+  }
+  .main-hero-headline {
+    font-size: 2rem;
   }
 }
