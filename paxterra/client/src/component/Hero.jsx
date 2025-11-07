@@ -5,9 +5,7 @@ import "../styles/Hero.css";
 const Hero = () => {
   return (
     <section className="hero-with-form-section">
-      <div className="hero-background-visual">
-        {/* <img src="/logo-bg.png" alt="PaxTerra logo" /> */}
-      </div>
+      <div className="hero-background-visual"></div>
 
       <div className="hero-content-wrapper">
         <div className="hero-text-content">
@@ -25,7 +23,7 @@ const Hero = () => {
               <li>Tree planting & pruning</li>
             </ul>
             <ul>
-              <li>Tree cabling & bracing</li>
+              <li>Woodworking</li>
               <li>Tree inspections</li>
               <li>Emergency tree services</li>
             </ul>
