@@ -14,6 +14,11 @@
   --space-m: 16px;
   --space-l: 24px;
   --space-xl: 32px;
+  --header-height: 140px;
+}
+html {
+  scroll-padding-top: var(--header-height);
+  scroll-behavior: smooth;
 }
 * {
   box-sizing: border-box;

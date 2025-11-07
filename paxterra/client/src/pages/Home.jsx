@@ -4,6 +4,7 @@ import CtaStrip from "../component/sections/CtaStrip/CtaStrip";
 import AboutMe from "../component/sections/AboutMe/AboutMe";
 import ServicesOverview from "../component/sections/ServicesOverview/ServicesOverview";
 import Gallery from "../component/sections/Gallery/Gallery";
+import Testimonials from "../component/sections/Testimonials/Testimonials";
 import "../styles/Home.css";
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
         <CtaStrip />
         <Gallery />
         <CtaStrip />
+        <Testimonials />
       </section>
     </>
   );

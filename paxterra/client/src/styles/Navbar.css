@@ -4,6 +4,8 @@
   z-index: 1000;
   background-color: #ffffff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  height: var(--header-height);
+  line-height: var(--header-height);
 }
 .navbar-content {
   /* max-width: 1400px; */

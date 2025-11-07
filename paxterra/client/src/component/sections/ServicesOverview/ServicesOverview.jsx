@@ -4,7 +4,7 @@ import "../../../styles/ServicesOverview.css";
 
 const ServicesOverview = () => {
   return (
-    <section className="services-overview">
+    <section className="services-overview" id="services">
       <h2 className="section-headline centered-headline">
         Tree & Stump Services in Maryland
       </h2>
