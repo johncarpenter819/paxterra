@@ -136,6 +136,29 @@
   opacity: 0.6;
 }
 
+@media (max-width: 992px) {
+  .footer-content-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+    text-align: center;
+  }
+  .footer-col-info,
+  .footer-col-contact {
+    text-align: center;
+  }
+  .footer-logo {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-socials {
+    justify-content: center;
+  }
+  .quote-form-wrapper {
+    max-width: 450px;
+    margin: 15px auto 0 auto;
+  }
+}
+
 @media (max-width: 500px) {
   .form-row {
     flex-direction: column;
@@ -143,5 +166,6 @@
   }
   .form-row input {
     margin-bottom: var(--space-m);
+    width: 100%;
   }
 }

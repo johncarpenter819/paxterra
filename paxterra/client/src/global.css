@@ -52,6 +52,6 @@ h3 {
 
 @media (max-width: 768px) {
   :root {
-    --header-height: 80px;
+    --header-height: 100px;
   }
 }
