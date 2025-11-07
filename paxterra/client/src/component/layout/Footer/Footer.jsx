@@ -16,7 +16,7 @@ const Footer = () => {
 
           <div className="footer-socials">
             <a
-              href="#facebook"
+              href="https://www.facebook.com/profile.php?id=100093019982899"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
@@ -24,7 +24,7 @@ const Footer = () => {
               <img src="/facebook.svg" alt="Facebook" className="social-icon" />
             </a>
             <a
-              href="#instagram"
+              href="https://www.instagram.com/paxterra.tree/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
