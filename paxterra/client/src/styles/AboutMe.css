@@ -75,9 +75,9 @@
   color: var(--color-orange);
 }
 .usp-item h4 {
-  color: var(--color-text-light);
+  color: var(--color-orange);
   font-family: "Poppins", sans-serif;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: 600;
   margin: 0;
 }

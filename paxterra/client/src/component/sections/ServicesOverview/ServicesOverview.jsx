@@ -5,15 +5,22 @@ import "../../../styles/ServicesOverview.css";
 const ServicesOverview = () => {
   return (
     <section className="services-overview">
-      <h2 className="section-headline">Tree & Stump Services in Maryland</h2>
+      <h2 className="section-headline centered-headline">
+        Tree & Stump Services in Maryland
+      </h2>
 
-      <ul>
-        <li>Frederick County</li>
-        <li>Washington County</li>
-        <li>Montgomery County</li>
-        <li>Carroll County</li>
-        <li>Howard County</li>
-      </ul>
+      <div className="service-area-list">
+        <span>•</span>
+        <span>Frederick County</span>
+        <span>•</span>
+        <span>Washington County</span>
+        <span>•</span>
+        <span>Montgomery County</span>
+        <span>•</span>
+        <span>Carroll County</span>
+        <span>•</span>
+        <span>Howard County</span>
+      </div>
 
       {servicesData.map((service) => (
         <div

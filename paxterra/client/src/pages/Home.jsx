@@ -13,7 +13,9 @@ const Home = () => {
 
       <section id="about" className="contentSection">
         <AboutMe />
+        <CtaStrip />
         <ServicesOverview />
+        <CtaStrip />
       </section>
     </>
   );
