@@ -5,6 +5,7 @@ import AboutMe from "../component/sections/AboutMe/AboutMe";
 import ServicesOverview from "../component/sections/ServicesOverview/ServicesOverview";
 import Gallery from "../component/sections/Gallery/Gallery";
 import Testimonials from "../component/sections/Testimonials/Testimonials";
+import Footer from "../component/layout/Footer/Footer";
 import "../styles/Home.css";
 
 const Home = () => {
@@ -21,6 +22,8 @@ const Home = () => {
         <Gallery />
         <CtaStrip />
         <Testimonials />
+        <CtaStrip />
+        <Footer />
       </section>
     </>
   );
