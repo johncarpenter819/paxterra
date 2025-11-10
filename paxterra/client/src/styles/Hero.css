@@ -119,7 +119,7 @@
   }
   .hero-background-visual {
     flex: auto;
-    min-height: 400px;
+    min-height: 500px;
     width: 100%;
   }
   .hero-background-visual img {
