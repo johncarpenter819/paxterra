@@ -4,7 +4,6 @@
   position: relative;
   background-color: var(--color-primary-green);
   color: var(--color-text-light);
-  padding-top: var(--header-height);
   box-sizing: border-box;
 }
 
