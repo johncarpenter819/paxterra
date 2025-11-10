@@ -10,7 +10,6 @@
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
 }
 .navbar-content {
-  /* max-width: 1400px; */
   margin: 0 auto;
   padding: var(--space-s) var(--space-m);
   display: flex;
@@ -61,7 +60,7 @@
 
 @media (max-width: 1024px) {
   .navbar-content {
-    padding: 6px var(--space-m);
+    padding: 10px var(--space-m);
   }
   .navbar-links,
   .navbar-certifications {
@@ -77,12 +76,12 @@
     color: var(--color-orange);
   }
   .navbar-logo img {
-    height: 45px;
+    height: 75px;
     vertical-align: middle;
   }
   .mobile-menu {
     position: fixed;
-    top: 55px;
+    top: 85px;
     height: calc(100vh - 60px);
     right: 0;
     width: 100%;
