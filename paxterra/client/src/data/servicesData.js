@@ -35,16 +35,6 @@ export const servicesData = [
     imagePath: "/planting.jpg",
     isReversed: false,
   },
-  //Possible to put woodworking projects the owner does here in services. Have to discuss with him IF YES CHANGE ID ON TREE INSPECTIONS//
-  //   {
-  //     id: 5,
-  //     title: "Tree Cabling & Bracing",
-  //     description:
-  //       "For valuable trees with structural weaknesses or poor branch connections, cabling and bracing offers support. This non-invasive method helps stabilize and preserve trees that might otherwise need to be removed.",
-  //     icon: "🔗",
-  //     imagePath: "/planting.jpg",
-  //     isReversed: false,
-  //   },
   {
     id: 5,
     title: "Tree Inspections",
@@ -52,6 +42,15 @@ export const servicesData = [
       "Proactive health assessments can prevent costly problems. Our certified arborists conduct thorough inspections to diagnose diseases, pest infestations, and structural issues, providing recommendations for care and treatment.",
     icon: "🔍",
     imagePath: "/inspection.jpg",
+    isReversed: false,
+  },
+  {
+    id: 6,
+    title: "Custom Woodworking & Live Edge Slabs",
+    description:
+      "We transform high-quality salvaged wood from our tree removal projects into stunning, one-of-a-kind pieces. Specializing in **live edge slabs and custom furniture**, we create unique dining tables, mantels, bar tops, and more. Contact us to inquire about our current stock of beautiful hardwood or commission a bespoke piece for your home.",
+    icon: "🔨",
+    imagePath: "/woodworking3.jpeg",
     isReversed: false,
   },
 ];

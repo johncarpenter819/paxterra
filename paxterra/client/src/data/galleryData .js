@@ -9,6 +9,11 @@ export const galleryData = [
   { id: 8, path: "/gallery8.PNG", alt: "Jesse in tree 2" },
   { id: 9, path: "/gallery9.PNG", alt: "crane" },
   { id: 10, path: "/gallery10.JPEG", alt: "Jesse in tree 3" },
-  { id: 11, path: "/gallery11.jpg", alt: "paxterra family" },
-  { id: 12, path: "/gallery12.jpg", alt: "stump removed" },
+  { id: 11, path: "/woodworking.png", alt: "table" },
+  { id: 12, path: "/woodworking2.jpeg", alt: "built in table" },
+  { id: 13, path: "/woodworking3.jpeg", alt: "bar" },
+  { id: 14, path: "/woodworking4.png", alt: "table" },
+  { id: 15, path: "/woodworking5.png", alt: "table" },
+  { id: 16, path: "/woodworking6.png", alt: "stump removed" },
+  { id: 17, path: "/gallery11.jpg", alt: "paxterra family" },
 ];

@@ -25,10 +25,9 @@ body {
   --space-m: 16px;
   --space-l: 24px;
   --space-xl: 32px;
-  --header-height: 140px;
 }
 html {
-  scroll-padding-top: var(--header-height);
+  scroll-padding-top: 120px;
   scroll-behavior: smooth;
 }
 * {
@@ -50,8 +49,8 @@ h3 {
   margin-bottom: var(--space-m);
 }
 
-@media (max-width: 768px) {
-  :root {
-    --header-height: 100px;
+@media (max-width: 992px) {
+  html {
+    scroll-padding-top: 60px;
   }
 }

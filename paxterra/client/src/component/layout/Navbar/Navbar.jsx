@@ -1,15 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import "../../../styles/Navbar.css";
 
 const PaxTerraLogo = "/logo-bg.png";
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleLinkClick = () => {
+    setMenuOpen(false);
+  };
+
   return (
     <header className="navbar-container">
       <nav className="navbar-content">
         <div className="navbar-logo">
-          <Link to="/#top">
+          <Link to="/#top" onClick={handleLinkClick}>
             <img src={PaxTerraLogo} alt="PaxTerra Tree Solutions Logo" />
           </Link>
         </div>
@@ -33,13 +39,41 @@ const Navbar = () => {
           <li>
             <Link to="/#testimonials">Testimonials</Link>
           </li>
-          {/* <li>
-            <Link to="/#quote" className="contact-button">
-              Get Quote
-            </Link>
-          </li> */}
         </ul>
+
+        <button
+          className="menu-toggle"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle navigation"
+        >
+          {menuOpen ? "x" : "☰"}
+        </button>
       </nav>
+
+      <div className={`mobile-menu ${menuOpen ? "active" : ""}`}>
+        <ul className="mobile-menu-links">
+          <li>
+            <Link to="/#about" onClick={handleLinkClick}>
+              About Us
+            </Link>
+          </li>
+          <li>
+            <Link to="/#services" onClick={handleLinkClick}>
+              Services
+            </Link>
+          </li>
+          <li>
+            <Link to="/#gallery" onClick={handleLinkClick}>
+              Gallery
+            </Link>
+          </li>
+          <li>
+            <Link to="/#testimonials" onClick={handleLinkClick}>
+              Testimonials
+            </Link>
+          </li>
+        </ul>
+      </div>
     </header>
   );
 };

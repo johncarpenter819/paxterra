@@ -16,11 +16,11 @@ const Home = () => {
 
       <section id="about" className="contentSection">
         <AboutMe />
-        <CtaStrip />
+        <CtaStrip variant="orange" />
         <ServicesOverview />
-        <CtaStrip />
+        <CtaStrip variant="orange" />
         <Gallery />
-        <CtaStrip />
+        <CtaStrip variant="orange" />
         <Testimonials />
         <CtaStrip />
         <Footer />
