@@ -87,7 +87,7 @@
   .service-area-list span {
     font-size: 0.95rem;
     margin: 0 var(--space-xs) var(--space-xs);
-    white-space: normal;
+    white-space: normal !important;
     display: inline-flex;
     align-items: center;
   }
