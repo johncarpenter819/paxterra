@@ -10,6 +10,8 @@
   max-width: 1400px;
   margin: 0 auto;
   padding-bottom: var(--space-xl);
+  opacity: 0;
+  animation: fadeIn 1s ease-out 0.2s forwards;
 }
 .footer-col-info {
   font-size: 0.9rem;
@@ -83,6 +85,9 @@
   border-radius: var(--space-s);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   margin-top: 15px;
+  transition: box-shadow 0.3s ease;
+  animation: slideUp 0.8s ease-out 0.5s forwards;
+  opacity: 0;
 }
 .form-title {
   text-align: center;
