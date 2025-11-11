@@ -12,6 +12,7 @@
   font-size: 1.3rem;
   color: var(--color-text-dark);
   margin: 0 var(--space-s);
+  white-space: nowrap;
 }
 .service-area-list span:nth-child(even) {
   color: var(--color-orange);
@@ -77,7 +78,22 @@
   }
   .service-area-list span {
     font-size: 1rem;
-    margin: 0 var(--space-xs);
+    margin: 0 var(--space-xs) var(--space-xs);
     line-height: 1.5;
+  }
+}
+
+@media (max-width: 425px) {
+  .service-area-list span {
+    font-size: 0.95rem;
+    margin: 0 var(--space-xs) var(--space-xs);
+    white-space: normal;
+    display: inline-flex;
+    align-items: center;
+  }
+  .service-area-list {
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
   }
 }

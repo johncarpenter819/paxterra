@@ -48,7 +48,7 @@ export const servicesData = [
     id: 6,
     title: "Custom Woodworking & Live Edge Slabs",
     description:
-      "We transform high-quality salvaged wood from our tree removal projects into stunning, one-of-a-kind pieces. Specializing in **live edge slabs and custom furniture**, we create unique dining tables, mantels, bar tops, and more. Contact us to inquire about our current stock of beautiful hardwood or commission a bespoke piece for your home.",
+      "We transform high-quality salvaged wood from our tree removal projects into stunning, one-of-a-kind pieces. Specializing in live edge slabs and custom furniture, we create unique dining tables, mantels, bar tops, and more. Contact us to inquire about our current stock of beautiful hardwood or commission a bespoke piece for your home.",
     icon: "🔨",
     imagePath: "/woodworking3.jpeg",
     isReversed: false,

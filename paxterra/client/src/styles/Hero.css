@@ -145,3 +145,15 @@
     font-size: 2rem;
   }
 }
+
+@media (max-width: 1024px) {
+  .hero-with-form-section {
+    flex-direction: column;
+    min-height: auto;
+  }
+  .hero-background-visual {
+    flex: auto;
+    min-height: 500px;
+    width: 100%;
+  }
+}
