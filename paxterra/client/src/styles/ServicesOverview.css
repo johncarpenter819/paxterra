@@ -6,18 +6,21 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  text-align: center;
   margin-bottom: var(--space-xl);
+  gap: 6px 10px;
 }
 .service-area-list span {
   font-size: 1.3rem;
-  color: var(--color-text-dark);
+  color: var(--color-orange);
+  font-weight: 600;
   margin: 0 var(--space-s);
   white-space: nowrap;
 }
-.service-area-list span:nth-child(even) {
+/* .service-area-list span:nth-child(even) {
   color: var(--color-orange);
   font-weight: bold;
-}
+} */
 .service-card {
   display: flex;
   margin-bottom: var(--space-xl);
