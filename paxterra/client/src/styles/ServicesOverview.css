@@ -17,10 +17,6 @@
   margin: 0 var(--space-s);
   white-space: nowrap;
 }
-/* .service-area-list span:nth-child(even) {
-  color: var(--color-orange);
-  font-weight: bold;
-} */
 .service-card {
   display: flex;
   margin-bottom: var(--space-xl);
