@@ -3,7 +3,7 @@ export const servicesData = [
     id: 1,
     title: "Tree Cutting, Trimming, & Pruning",
     description:
-      "We work to proudly offer comprehensive tree services that enhance the stability, shape, and health of your trees. From shaping and thinning to branch and complete tree removal, our certified arborists will ensure peace of mind as we remove you excess trees and shrubs.",
+      "We proudly offer comprehensive tree services that enhance the stability, shape, and health of your trees. From shaping and thinning to branch and complete tree removal, our certified arborists will ensure peace of mind as we remove your excess trees and shrubs.",
     icon: "🌲",
     imagePath: "/trimming.PNG",
     isReversed: false,
