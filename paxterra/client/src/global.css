@@ -96,3 +96,22 @@ h3 {
     transform: translateX(0);
   }
 }
+
+.reveal-item {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.slide-up-active {
+  animation: slideUp 2s ease-out forwards;
+}
+.slide-in-left-active {
+  animation: slideInLeft 2s ease-out forwards;
+}
+.slide-in-right-active {
+  animation: slideInRight 2s ease-out forwards;
+}
+.fade-in-active {
+  animation: fadeIn 2s ease-out forwards;
+  transform: translateY(0) !important;
+}

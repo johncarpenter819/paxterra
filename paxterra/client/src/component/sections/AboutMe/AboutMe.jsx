@@ -1,19 +1,33 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../../styles/AboutMe.css";
+import { initScrollReveal } from "../../../../scroll-reveal";
 
 const AboutMe = () => {
   const familyPhoto1 = "/familyPhoto1.webp";
   const familyPhoto2 = "/familyPhoto2.webp";
   const familyPhoto3 = "/familyPhoto3.webp";
   const familyPhoto4 = "/familyPhoto4.webp";
+
+  useEffect(() => {
+    setTimeout(() => initScrollReveal(), 200);
+  }, []);
+
   return (
-    <div className="about-me-content">
-      <h2 className="section-headline">Why Choose PaxTerra?</h2>
+    <div className="about-me-content reveal-item" data-animation="fade-in">
+      <h2 className="section-headline reveal-item" data-animation="slide-up">
+        Why Choose PaxTerra?
+      </h2>
 
       <div className="about-me-grid">
-        <div className="about-me-left-column">
+        <div
+          className="about-me-left-column reveal-item"
+          data-animation="slide-in-left"
+        >
           <div className="about-me-intro-split">
-            <div className="about-me-text">
+            <div
+              className="about-me-text reveal-item"
+              data-animation="slide-up"
+            >
               <p>
                 After a couple years of working for another tree company and
                 numerous side jobs on the weekends, we decided it was time to
@@ -39,7 +53,10 @@ const AboutMe = () => {
               </p>
             </div>
 
-            <div className="family-photo-grid">
+            <div
+              className="family-photo-grid reveal-item"
+              data-animation="slide-in-right"
+            >
               <img
                 src={familyPhoto1}
                 alt="Jesse, Maggie, Paxton"
@@ -60,7 +77,7 @@ const AboutMe = () => {
           </div>
         </div>
 
-        <div className="usp-grid">
+        <div className="usp-grid reveal-item" data-animation="slide-up">
           <div className="usp-item">
             <span className="usp-icon">👷</span>
             <h4>Certified Arborists</h4>
