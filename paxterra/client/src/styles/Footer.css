@@ -1,3 +1,12 @@
+.footer-content-grid {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 3s ease, transform 3s ease;
+}
+.footer-content-grid.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
 .main-footer {
   background-color: var(--color-primary-green);
   color: var(--color-text-light);

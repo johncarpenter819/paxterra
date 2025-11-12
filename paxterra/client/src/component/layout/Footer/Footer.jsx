@@ -6,7 +6,10 @@ const Footer = () => {
 
   return (
     <footer className="main-footer">
-      <div className="footer-content-grid">
+      <div
+        className="footer-content-grid reveal-item"
+        data-animation="slide-up"
+      >
         <div className="footer-col footer-col-info">
           <img src={PaxTerraLogo} alt="PaxTerra Logo" className="footer-logo" />
           <p>Licensed and Insured</p>
