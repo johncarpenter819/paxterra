@@ -1,8 +1,33 @@
-import React from "react";
+import React, { useRef } from "react";
 import "../../../styles/Footer.css";
+import emailjs from "emailjs-com";
 
 const Footer = () => {
   const PaxTerraLogo = "/logo-bg.png";
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_wlrusje",
+        "template_1f6kyx9",
+        form.current,
+        "o1EEg6T_Dv3zghnDG"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Message sent successfuly, we will reach out shortly!");
+          e.target.reset();
+        },
+        (error) => {
+          console.error(error.text);
+          alert("Failed to send message. Please try again later.");
+        }
+      );
+  };
 
   return (
     <footer className="main-footer">
@@ -58,16 +83,31 @@ const Footer = () => {
         <div className="footer-col footer-col-form">
           <div className="quote-form-wrapper">
             <h3 className="form-title">Request a Quote Today</h3>
-            <form className="footer-quote-form">
+            <form ref={form} onSubmit={sendEmail} className="footer-quote-form">
               <div className="form-row">
-                <input type="text" placeholder="Name" required />
-                <input type="tel" placeholder="Phone" required />
+                <input
+                  type="text"
+                  name="user_name"
+                  placeholder="Name"
+                  required
+                />
+                <input
+                  type="tel"
+                  name="user_phone"
+                  placeholder="Phone"
+                  required
+                />
               </div>
               <div className="form-row">
-                <input type="email" placeholder="Email" required />
-                <input type="text" placeholder="Zip" />
+                <input
+                  type="email"
+                  name="user_email"
+                  placeholder="Email"
+                  required
+                />
+                <input type="text" name="user_zip" placeholder="Zip" />
               </div>
-              <textarea placeholder="Message"></textarea>
+              <textarea name="message" placeholder="Message"></textarea>
               <button type="submit" className="form-submit-button">
                 Send Message
               </button>
